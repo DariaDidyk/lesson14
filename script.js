@@ -147,15 +147,15 @@
 // const counter = (value = 0) => () => ++value;
 
 
-function counterFnc() {
-    let value = 0;
-    return function () {
-        return ++value;
-    };
-}
+// function counterFnc() {
+//     let value = 0;
+//     return function () {
+//         return ++value;
+//     };
+// }
 
-const count = counterFnc();
-console.log(count()); //1
+// const count = counterFnc();
+// console.log(count()); //1
 
 // const sum = a => b => a + b;
 // function sumFnc(a) {  //замыкается на а
@@ -167,10 +167,11 @@ console.log(count()); //1
 // const memized = sumFnc(3); // нужно сохранить первый вызов функции, к нему потом будет добавляться остальные вызовы вроде
 // console.log(memized(5));
 
-const iteration = counter();
-iteration.inc();
-iteration.inc();
-iteration.inc();
-iteration.inc();
-iteration.inc();
-console.log(iteration.value()); //
+// const iteration = counter();
+// iteration.inc();
+// iteration.inc();
+// iteration.inc();
+// iteration.inc();
+// iteration.inc();
+// console.log(iteration.value()); //
+
